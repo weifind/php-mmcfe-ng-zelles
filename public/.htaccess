@@ -1,0 +1,11 @@
+RedirectMatch 404 /templates(/|$)
+RedirectMatch 404 /include(/|$)
+RedirectMatch 404 /.git(/|$)
+
+<Files .htaccess>
+order deny,allow
+deny from all
+</Files>
+
+order allow,deny
+allow from all

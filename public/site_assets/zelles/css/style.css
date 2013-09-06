@@ -1,0 +1,285 @@
+body {
+   background: #FFFFFF;
+   font-family: "Lucida Grande", Verdana, sans-serif;
+   font-size: 12px;
+   color: #333333;
+   padding: 0px;
+   margin: 0px;
+}
+img, a img {
+   border: 0px;
+}
+a {
+   color: #008EE8;
+   text-decoration: none;
+}
+a:hover {
+   color: #EC8526;
+   text-decoration: none;
+}
+table {
+   font-size: 12px;
+   border-collapse: collapse;
+}
+
+
+/* Global Style */
+.zelbody {
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+}
+.zelheader {
+   width: 100%;
+   height: 50px;
+   background: #45484d;
+   background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000));
+   background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: -o-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: linear-gradient(to bottom,  #45484d 0%,#000000 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+   padding: 0px;
+   margin: 0px;
+}
+.zelleftmenu {
+   width: 200px;
+   max-width: 200px;
+   min-width: 200px;
+   padding: 0px;
+   margin: 0px;
+}
+.zelcontent {
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+}
+.zelrightmenu {
+   width: 230px;
+   max-width: 230px;
+   min-width: 230px;
+   padding: 0px;
+   margin: 0px;
+}
+.spacer {
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.left {
+   text-align: left;
+}
+.center {
+   text-align: center;
+}
+.right {
+   text-align: right;
+}
+
+/* Header */
+.header {
+   width: 100%;
+   height: 50px;
+   color: #FFFFFF;
+}
+.headercolor {
+   color: #FFFFFF;
+}
+.headertitle {
+   font-size: 24px;
+   font-weight: bold;
+}
+.headerslogan {
+   color: #A4A4A4;
+   font-size: 10px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+
+/* Side Bar */
+.sidebarleft {
+   width: 100%;
+   background: #eeeeee;
+   background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+   background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+   background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+   background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+   background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+   behavior: url(site_assets/zelles/css/border-radius.htc);
+   -moz-border-radius: 0px 0px 15px 0px;
+   -webkit-border-radius: 0px 0px 15px 0px;
+   -khtml-border-radius: 0px 0px 15px 0px;
+   border-radius: 0px 0px 15px 0px;
+   padding: 0px;
+   margin: 0px;
+}
+.sidebarright {
+   width: 100%;
+   background: #eeeeee;
+   background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+   background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+   background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+   background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+   background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+   font-size: 10px;
+   behavior: url(site_assets/zelles/css/border-radius.htc);
+   -moz-border-radius: 0px 0px 0px 15px;
+   -webkit-border-radius: 0px 0px 0px 15px;
+   -khtml-border-radius: 0px 0px 0px 15px;
+   border-radius: 0px 0px 0px 15px;
+   padding: 0px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 0px;
+}
+.statsbar {
+   width: 100%;
+}
+.sidebarright a {
+   color: #008EE8;
+}
+.sidebarright a:hover {
+   color: #EC8526;
+}
+#nav {
+   padding: 0px;
+   margin: 0px;
+}
+#nav ul {
+   padding: 0px;
+   margin: 0px;
+}
+#nav li {
+   font-size: 14px;
+   font-weight: bold;
+   list-style: none;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   padding-left: 10px;
+}
+#nav li ul li {
+   padding-top: 2px;
+   padding-bottom: 2px;
+   padding-left: 20px;
+}
+#nav li a {
+   display: block;
+   color: #008EE8;
+}
+#nav li a:hover {
+   color: #EC8526;
+}
+
+
+/* Footer */
+#footer {
+   font-size: 11px;
+   padding: 0px;
+   margin: 0px;
+}
+#footer a:hover {
+   text-decoration: underline;
+}
+
+
+/* Chat Room */
+.zelles-chat {
+   position: fixed;
+   bottom: 0px;
+   right: 0px;
+   width: 380px;
+   min-width: 380px;
+   max-width: 380px;
+   height: 360px;
+   background: #FFFFFF;
+   border-left: 1px solid #000000;
+   border-top: 0px none #000000;
+   border-right: 0px none #000000;
+   border-bottom: 0px none #000000;
+   behavior: url(site_assets/zelles/css/border-radius.htc);
+   -moz-border-radius: 5px 0px 0px 0px;
+   -webkit-border-radius: 5px 0px 0px 0px;
+   -khtml-border-radius: 5px 0px 0px 0px;
+   border-radius: 5px 0px 0px 0px;
+   display: none;
+}
+.zelles-chat-title {
+   width: 380px;
+   min-width: 380px;
+   max-width: 380px;
+   height: 24px;
+   background: #45484d;
+   background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000));
+   background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: -o-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: linear-gradient(to bottom,  #45484d 0%,#000000 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+   border: 1px solid #000000;
+   border-right: 0px none #000000;
+   border-bottom: 0px none #000000;
+   behavior: url(site_assets/zelles/css/border-radius.htc);
+   -moz-border-radius: 5px 0px 0px 0px;
+   -webkit-border-radius: 5px 0px 0px 0px;
+   -khtml-border-radius: 5px 0px 0px 0px;
+   border-radius: 5px 0px 0px 0px;
+   cursor: pointer;
+}
+.zelles-chat-title-content {
+   font-size: 14px;
+   font-weight: bold;
+   color: #FFFFFF;
+   padding: 3px;
+}
+.zelles-bar {
+   position: fixed;
+   bottom: 0px;
+   right: 0px;
+   width: 380px;
+   min-width: 380px;
+   max-width: 380px;
+   height: 24px;
+   background: #45484d;
+   background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000));
+   background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: -o-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%);
+   background: linear-gradient(to bottom,  #45484d 0%,#000000 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+   border: 1px solid #000000;
+   border-right: 0px none #000000;
+   border-bottom: 0px none #000000;
+   behavior: url(site_assets/zelles/css/border-radius.htc);
+   -moz-border-radius: 5px 0px 0px 0px;
+   -webkit-border-radius: 5px 0px 0px 0px;
+   -khtml-border-radius: 5px 0px 0px 0px;
+   border-radius: 5px 0px 0px 0px;
+   cursor: pointer;
+}
+.zelles-bar-content {
+   font-size: 14px;
+   font-weight: bold;
+   color: #FFFFFF;
+   padding: 3px;
+}
+#zelleschatroom {
+   width: 100%;
+   height: 300px;
+   border: 1px solid #BBBBBB;
+   padding: 3px;
+   overflow-y: scroll;
+}
+#zelleschatroom p {
+   font-size: 12px;
+   padding: 0px;
+   margin: 0px;
+   margin-top: 6px;
+}
