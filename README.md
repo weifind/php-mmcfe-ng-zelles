@@ -1,51 +1,37 @@
+Updates
+===========
+
+Code cleaned by zelles
+
+Chat added by zelles
+
+
 Description
 ===========
 
-cleaned by zelles
-chat by zelles
+mmcFE-ng is a web frontend for pooled crypto-currency mining.
 
-mmcFE-ng is a web frontend for Pooled LTC Mining. A pool using this interface is running at http://pool.grewe.ca
-
-The web frontend layout is based on mmcFE, the original work by Greedi:
+The web frontend layout is based on mmcFE, by Greedi:
 https://github.com/Greedi/mmcFE
 
-After working a few days trying to learn to run my own pool and the
-systems behind it I figured I'd look a bit deeper in the code to
-understand how it works. While doing so I also migrated the existing
-code over to my own framework so maintenance would be easier in the
-future.
+The web frontend had a chat added, the code cleaned, and updated by zelles:
+https://github.com/zelles/php-mmcfe-ng-zelles/
 
-**NOTE**: This project is still under development and commits are happening on a daily basis.
-I do not recommend using this for a live setup as of yet. Wait for the later Release Candidate
-if you wish to run your pool with it. Testing pools are much appreciated though!
+**NOTE**: This project is still under development. I do not recommend using 
+this for a live setup with out checking the code and thouroughly testing it.
+
 
 Donations
 =========
 
-I was hoping to keep this out of the README but apparently people remove or change the LTC address
-at the bottom of the page. For those of you finding my project and are willing to appreciate the work
-with some hard earned LTC feel free to donate to my LTC address: `Lge95QR2frp9y1wJufjUPCycVsg5gLJPW8`
+For those of you that are willing to appreciate the updates contained in here. 
+Feel free to donate to my Franko address: `F9sEnur7M4kWVofBpfsVZ9fNcNWatE8tCt`
 
-Donors
-======
-
-These people have supported this project with a donation:
-
-* [obigal](https://github.com/obigal)
-* [vias](https://github.com/vias79)
-* [WKNiGHT](https://github.com/WKNiGHT-)
-* [ZC](https://github.com/zccopwrx)
-* Nutnut
-
-Pools running mmcfe-ng
-======================
-
-You can find a list of active pools [here](POOLS.md).
 
 Requirements
 ============
 
-This setup has been tested on Ubuntu 12.04, Ubuntu 13.04 and CentOS.
+This setup has been tested on Windows 8, Ubuntu 12.04, Ubuntu 13.04 and CentOS.
 It should also work on any related distribution (RHEL, Debian).
 For support on how to get `litecoind` or `pushpoold` to work, please ask
 in the appropriate forums.
@@ -67,23 +53,25 @@ for full information.
 * pushpoold
 * litecoind
 
+
 Features
 ========
 
 The following feature have been implemented so far:
 
+* Slide in Chatroom for 'zelles' theme
 * Fully re-written GUI with [Smarty][2] templates
 * Mobile WebUI
 * Reward Systems
- * Propotional
- * PPS
- * PPLNS **NEW**
+  * Propotional
+  * PPS
+  * PPLNS **NEW**
 * Statistics are cached in Memcache by Cronjob for quick data access
 * Web User accounts
- * Re-Captcha protected registration form
+  * Re-Captcha protected registration form
 * Worker accounts
- * Worker activity (live, past 10 minutes)
- * Worker hashrates (live, past 10 minutes)
+  * Worker activity (live, past 10 minutes)
+  * Worker hashrates (live, past 10 minutes)
 * Pool statistics
 * Minimal Block statistics
 * Pool donations
@@ -92,26 +80,28 @@ The following feature have been implemented so far:
 * Auto payout
 * Transaction list (confirmed and unconfirmed)
 * Admin Panel
- * Cron Monitoring Overview **NEW**
- * User Listing including statistics
- * Wallet information
- * User Transactions **NEW**
- * News Posts
+  * Cron Monitoring Overview **NEW**
+  * User Listing including statistics
+  * Wallet information
+  * User Transactions **NEW**
+  * News Posts
 * Notification system
- * IDLE Workers
- * New blocks found in pool
- * Auto Payout
- * Manual Payout
+  * IDLE Workers
+  * New blocks found in pool
+  * Auto Payout
+  * Manual Payout
 * Support for various Scrypt based coins via config
- * MNC
- * LTC
- * ...
+  * FRK
+  * LTC
+  * ...
+
 
 Installation
 ============
 
 Please take a look at the [Quick Start Guide](https://github.com/TheSerapher/php-mmcfe-ng/wiki/Quick-Start-Guide). This will give you
 an idea how to setup `mmcfe-ng`.
+
 
 Contributing
 ============
@@ -122,10 +112,24 @@ You can contribute to this project in different ways:
 * Suggest feature enhancements also via [Issues][1]
 * Fork the project, create a branch and file a pull request to improve the code itself
 
+
 Contact
 =======
 
 You can find me on Freenode.net, #mmcfe-ng.
+
+Skype zelles at: "zelles." without the quotes. with the period!
+
+
+Chat Section License and Author
+==================
+
+Coded by: zelles
+
+The chat system added is 100% open-source and free to use. Use it anywhere and 
+modify it in anyway you would like. There is NO required text, copyright, crap 
+license, or guidlines like most open-source authors...
+
 
 License and Author
 ==================
@@ -143,7 +147,6 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
 
   [1]: https://github.com/TheSerapher/php-mmcfe-ng/issues "Issue"
   [2]: http://www.smarty.net/docs/en/ "Smarty"
