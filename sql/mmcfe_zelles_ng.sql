@@ -2,10 +2,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
-CREATE DATABASE IF NOT EXISTS `mmcfe_zelles_ng` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `mmcfe_zelles_ng`;
-
-
 CREATE TABLE IF NOT EXISTS `accounts` (
   `id` int(255) NOT NULL AUTO_INCREMENT,
   `is_admin` tinyint(1) NOT NULL DEFAULT '0',
